@@ -18,17 +18,23 @@
 -->
 
 <!-- 1. Create a layout -->
+<!-- Use a RelativeLayout to position the button later -->
+
 <!-- 2. Add an image from the series as the background -->
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apl/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apl/res/android"
     android:orientation="vertical"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
     android:background="@drawable/battle_cards.jpg"
     >
-</LinearLayout>
 
+<!-- 3. Add a button at the bottom ofthe layout that says "like" -->
+<!-- Set the Button id, width/height, padding, and weight-->
 
+</RelativeLayout>
+
+<!--
 
     <TextView
         android:layout_width="fill_parent"
@@ -63,3 +69,4 @@
         android:background="@color/testBlue"
         android:text="Homer Simpson"
         android:textColor="@color/colorAccent" />
+--> 
